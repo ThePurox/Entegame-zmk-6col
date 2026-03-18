@@ -169,55 +169,55 @@
 
         default_layer {
             bindings = <
-&mt LGUI RBKT    &kp Q           &kp W         &kp F       &kp P                &kp B        &kp J        &kp L                &kp U       &kp Y         &kp SEMI     &kp LBKT
-&mt LCTRL GRAVE  &mt LEFT_GUI A  &mt LSHIFT R  &mt LALT S  &mt RIGHT_CONTROL T  &kp G        &kp M        &mt RIGHT_CONTROL N  &mt LALT E  &mt RSHIFT I  &mt LMETA O  &mt RCTRL SQT
-&mt LALT MINUS   &kp Z           &kp X         &kp C       &kp D                &kp V        &kp K        &kp H                &kp COMMA   &kp DOT       &kp FSLH     &mt RALT BSLH
-                                               &lt 3 ESC   &mt LSHFT TAB        &lt 4 SPACE  &lt 3 ENTER  &mt RSHFT BSPC       &lt 4 DEL
+&kp ESC          &kp Q           &kp W         &kp F       &kp P                &kp B          &kp J        &kp L                &kp U       &kp Y         &kp SEMI     &kp LBKT
+&mt LCTRL GRAVE  &mt LEFT_GUI A  &mt LSHIFT R  &mt LALT S  &mt RIGHT_CONTROL T  &kp G          &kp M        &mt RIGHT_CONTROL N  &mt LALT E  &mt RSHIFT I  &mt LMETA O  &mt RCTRL SQT
+&mt LALT MINUS   &kp Z           &kp X         &kp C       &kp D                &kp V          &kp K        &kp H                &kp COMMA   &kp DOT       &kp FSLH     &mt RALT BSLH
+                                               &lt 3 ESC   &mt LSHFT TAB        &lt 4 SPACE    &lt 3 ENTER  &mt RSHFT BSPC       &lt 4 DEL
             >;
         };
 
         qwerty {
             bindings = <
-&mt LGUI RBKT    &kp Q        &kp W        &kp E        &kp R          &kp T        &kp Y        &kp U           &kp I      &kp O    &kp P     &kp LBKT
-&mt LCTRL GRAVE  &kp A        &kp S        &kp D        &kp F          &kp G        &kp H        &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
-&mt LALT MINUS   &mt LC(Z) Z  &mt LC(X) X  &mt LC(C) C  &mt LC(V) V    &kp B        &kp N        &kp M           &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
-                                           &lt 4 ESC    &mt LSHFT TAB  &lt 3 SPACE  &lt 3 ENTER  &mt RSHFT BSPC  &lt 4 DEL
+&mt LGUI RBKT    &kp Q        &kp W        &kp E        &kp R          &kp T          &kp Y        &kp U           &kp I      &kp O    &kp P     &kp LBKT
+&mt LCTRL GRAVE  &kp A        &kp S        &kp D        &kp F          &kp G          &kp H        &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
+&mt LALT MINUS   &mt LC(Z) Z  &mt LC(X) X  &mt LC(C) C  &mt LC(V) V    &kp B          &kp N        &kp M           &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
+                                           &lt 4 ESC    &mt LSHFT TAB  &lt 3 SPACE    &lt 3 ENTER  &mt RSHFT BSPC  &lt 4 DEL
             >;
         };
 
         gaming {
             bindings = <
-&kp ESC       &kp T  &kp Q  &kp W             &kp E      &kp R      &kp Y        &kp U           &kp I      &kp O    &kp P     &to 0
-&kp LEFT_ALT  &kp G  &kp A  &kp S             &kp D      &kp F      &kp H        &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
-&kp TAB       &kp B  &kp Z  &kp X             &kp C      &kp V      &kp N        &kp M           &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
-                            &kp LEFT_CONTROL  &kp LSHFT  &kp SPACE  &lt 3 ENTER  &mt RSHFT BSPC  &lt 4 DEL
+&kp ESC       &kp T  &kp Q  &kp W             &kp E      &kp R        &kp Y        &kp U           &kp I      &kp O    &kp P     &to 0
+&kp LEFT_ALT  &kp G  &kp A  &kp S             &kp D      &kp F        &kp H        &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
+&kp TAB       &kp B  &kp Z  &kp X             &kp C      &kp V        &kp N        &kp M           &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
+                            &kp LEFT_CONTROL  &kp LSHFT  &kp SPACE    &lt 3 ENTER  &mt RSHFT BSPC  &lt 4 DEL
             >;
         };
 
         lower_layer {
             bindings = <
-&mt LGUI F1     &kp F2                     &kp F3                     &kp F4                     &kp F5                     &kp F6                     &kp F7                     &kp F8               &kp F9                     &kp F10                    &kp F11                    &kp F12
-&mt LCTRL PLUS  &kp EXCL                   &kp AT                     &kp HASH                   &kp DLLR                   &kp PRCNT                  &kp CARET                  &kp AMPS             &kp STAR                   &kp LPAR                   &kp RPAR                   &mt RCTRL MINUS
-&mt LALT EQUAL  &mt LG(NUMBER_1) NUMBER_1  &mt LG(NUMBER_2) NUMBER_2  &mt LG(NUMBER_3) NUMBER_3  &mt LG(NUMBER_4) NUMBER_4  &mt LG(NUMBER_5) NUMBER_5  &mt LG(NUMBER_6) NUMBER_6  &mt LG(NUMBER_7) N7  &mt LG(NUMBER_8) NUMBER_8  &mt LG(NUMBER_9) NUMBER_9  &mt LG(NUMBER_0) NUMBER_0  &kp RALT
-                                                                      &trans                     &trans                     &trans                     &trans                     &trans               &trans
+&mt LGUI F1     &kp F2                     &kp F3                     &kp F4                     &kp F5                     &kp F6                       &kp F7                     &kp F8               &kp F9                     &kp F10                    &kp F11                    &kp F12
+&mt LCTRL PLUS  &kp EXCL                   &kp AT                     &kp HASH                   &kp DLLR                   &kp PRCNT                    &kp CARET                  &kp AMPS             &kp STAR                   &kp LPAR                   &kp RPAR                   &mt RCTRL MINUS
+&mt LALT EQUAL  &mt LG(NUMBER_1) NUMBER_1  &mt LG(NUMBER_2) NUMBER_2  &mt LG(NUMBER_3) NUMBER_3  &mt LG(NUMBER_4) NUMBER_4  &mt LG(NUMBER_5) NUMBER_5    &mt LG(NUMBER_6) NUMBER_6  &mt LG(NUMBER_7) N7  &mt LG(NUMBER_8) NUMBER_8  &mt LG(NUMBER_9) NUMBER_9  &mt LG(NUMBER_0) NUMBER_0  &kp RALT
+                                                                      &trans                     &trans                     &trans                       &trans                     &trans               &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&mt LGUI KP_NUM  &none  &none  &none   &none   &none            &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP  &kp SLCK         &kp CLCK
-&mt LCTRL EQUAL  &none  &none  &none   &none   &kp PRINTSCREEN  &kp LEFT      &kp DOWN  &kp UP     &kp RIGHT  &kp INS          &mt RCTRL K_APP
-&kp LALT         &none  &none  &none   &none   &none            &kp C_VOL_DN  &kp END   &alt_f4    &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
-                               &trans  &trans  &trans           &trans        &trans    &trans
+&mt LGUI KP_NUM  &none  &none  &none   &none   &none              &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP  &kp SLCK         &kp CLCK
+&mt LCTRL EQUAL  &none  &none  &none   &none   &kp PRINTSCREEN    &kp LEFT      &kp DOWN  &kp UP     &kp RIGHT  &kp INS          &mt RCTRL K_APP
+&kp LALT         &none  &none  &none   &none   &none              &kp C_VOL_DN  &kp END   &alt_f4    &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
+                               &trans  &trans  &trans             &trans        &trans    &trans
             >;
         };
 
         adjust_layer {
             bindings = <
-&bootloader  &studio_unlock  &none         &tog 2        &tog 1        &tog 0        &tog 1        &tog 0        &none         &none         &studio_unlock  &bootloader
-&bt BT_CLR   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0    &bt BT_CLR
-&sys_reset   &bt BT_SEL 5    &bt BT_SEL 6  &bt BT_SEL 7  &bt BT_SEL 8  &bt BT_SEL 9  &bt BT_SEL 9  &bt BT_SEL 8  &bt BT_SEL 7  &bt BT_SEL 6  &bt BT_SEL 5    &sys_reset
-                                           &trans        &none         &trans        &trans        &trans        &trans
+&bootloader  &studio_unlock  &none         &tog 2        &tog 1        &tog 0          &tog 1        &tog 0        &none         &none         &studio_unlock  &bootloader
+&bt BT_CLR   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0    &bt BT_CLR
+&sys_reset   &bt BT_SEL 5    &bt BT_SEL 6  &bt BT_SEL 7  &bt BT_SEL 8  &bt BT_SEL 9    &bt BT_SEL 9  &bt BT_SEL 8  &bt BT_SEL 7  &bt BT_SEL 6  &bt BT_SEL 5    &sys_reset
+                                           &trans        &none         &trans          &trans        &trans        &trans
             >;
         };
     };
