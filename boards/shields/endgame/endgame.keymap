@@ -31,7 +31,7 @@
             bindings = <
                 &kp N3    &kp V    &kp W     &kp F     &kp P    &kp B     &kp J     &kp L    &kp Y     &kp U     &kp Z     &kp N6
                 &kp N4    &kp R    &kp S     &kp T     &kp H    &kp K     &kp X     &kp N    &kp A     &kp I     &kp O     &kp N7
-                &kp N5    &kp Q    &kp C     &kp G     &kp D    &kp Z     &kp Z     &kp M    &kp COMMA &kp DOT   &kp MINUS &kp N8
+                &kp N5    &kp Q    &kp C     &kp G     &kp D    &kp HASH  &kp PLUS  &kp M    &kp COMMA &kp DOT   &kp MINUS &kp N8
                 &kp N1                                 &kp ESC  &kp SPACE &kp E     &kp TAB                                &kp N2
             >;
         };
